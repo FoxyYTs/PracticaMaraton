@@ -1,18 +1,19 @@
 package Ajedrez;
 
 public class Fichas {
-    private String posición,color;
+    private String posicion;
+    private String color;
     public Fichas(String posicion, String color){
-        this.posición = posicion;
+        this.posicion = posicion;
         this.color = color;
     }
 
-    public void setPosicion(String posicion){
-        this.posición = posicion;
+    public void setPosicionX(String posicion){
+        this.posicion = posicion;
     }
 
     public String getPosicion(){
-        return posición;
+        return posicion;
     }
 
     public void setColor(String color){
@@ -21,5 +22,8 @@ public class Fichas {
 
     public String getColor(){
         return color;
+    }
+
+    public void mover(int movimientox, int movimientoy){
     }
 }

@@ -5,4 +5,12 @@ public class Peon extends Fichas{
         super(posicion, color);
     }
 
+    @Override
+    public void mover(int movimientox, int movimientoy){
+        if(getColor().equals("W")){
+            if (getPosicion().substring(0, 1).equals("2")){
+                
+            }
+        }
+    }
 }
