@@ -1,10 +1,9 @@
-package Ajedrez;
 
-public class Torre extends Fichas {
 
+public class Alfil extends Fichas {
     private String color,posicion;
 
-    public Torre (String posicion, String color) {
+    public Alfil (String posicion, String color) {
         super(posicion, color);
     }
 
@@ -27,7 +26,5 @@ public class Torre extends Fichas {
     public void mover (String mover) {
         
     }
-
-
-
+    
 }

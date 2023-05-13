@@ -1,3 +1,11 @@
+
+import java.awt.Color;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+import javax.swing.border.Border;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -60,7 +68,6 @@ public class Tablero extends javax.swing.JFrame {
         PeonW_F2 = new javax.swing.JLabel();
         PeonW_G2 = new javax.swing.JLabel();
         PeonW_H2 = new javax.swing.JLabel();
-        FondoTablero = new javax.swing.JLabel();
         A6 = new javax.swing.JLabel();
         A5 = new javax.swing.JLabel();
         A4 = new javax.swing.JLabel();
@@ -125,6 +132,7 @@ public class Tablero extends javax.swing.JFrame {
         G7 = new javax.swing.JLabel();
         H8 = new javax.swing.JLabel();
         H7 = new javax.swing.JLabel();
+        FondoTablero = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -151,6 +159,11 @@ public class Tablero extends javax.swing.JFrame {
         getContentPane().add(PeonN_B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 100, 50, 55));
 
         PeonN_A7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
+        PeonN_A7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                PeonN_A7MouseClicked(evt);
+            }
+        });
         getContentPane().add(PeonN_A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 50, 55));
 
         TorreN_H8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegro.png"))); // NOI18N
@@ -225,202 +238,121 @@ public class Tablero extends javax.swing.JFrame {
         PeonW_H2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
         getContentPane().add(PeonW_H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 355, 50, 55));
 
-        FondoTablero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoTablero.png"))); // NOI18N
-        getContentPane().add(FondoTablero, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 512, 512));
-
-        A6.setText("jLabel1");
+        A6.setForeground(new java.awt.Color(242, 242, 242));
         getContentPane().add(A6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 155, 52, 50));
-
-        A5.setText("jLabel1");
         getContentPane().add(A5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 205, 52, 50));
-
-        A4.setText("jLabel1");
         getContentPane().add(A4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 255, 52, 50));
-
-        A3.setText("jLabel1");
         getContentPane().add(A3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 307, 52, 50));
-
-        B6.setText("jLabel1");
         getContentPane().add(B6, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 155, 52, 50));
-
-        B5.setText("jLabel1");
         getContentPane().add(B5, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 205, 52, 50));
-
-        B4.setText("jLabel1");
         getContentPane().add(B4, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 255, 52, 50));
-
-        B3.setText("jLabel1");
         getContentPane().add(B3, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 307, 52, 50));
-
-        C6.setText("jLabel1");
         getContentPane().add(C6, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 155, 52, 50));
-
-        C5.setText("jLabel1");
         getContentPane().add(C5, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 205, 52, 50));
-
-        C4.setText("jLabel1");
         getContentPane().add(C4, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 255, 52, 50));
-
-        C3.setText("jLabel1");
         getContentPane().add(C3, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 307, 52, 50));
-
-        D6.setText("jLabel1");
         getContentPane().add(D6, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 155, 52, 50));
-
-        D5.setText("jLabel1");
         getContentPane().add(D5, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 205, 52, 50));
-
-        D4.setText("jLabel1");
         getContentPane().add(D4, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 255, 52, 50));
         getContentPane().add(D3, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 307, 52, 50));
-
-        E6.setText("jLabel1");
         getContentPane().add(E6, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 155, 52, 50));
-
-        E5.setText("jLabel1");
         getContentPane().add(E5, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 205, 52, 50));
-
-        E4.setText("jLabel1");
         getContentPane().add(E4, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 255, 52, 50));
-
-        E3.setText("jLabel1");
         getContentPane().add(E3, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 307, 52, 50));
-
-        F6.setText("jLabel1");
         getContentPane().add(F6, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 155, 52, 50));
-
-        F5.setText("jLabel1");
         getContentPane().add(F5, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 205, 52, 50));
-
-        F4.setText("jLabel1");
         getContentPane().add(F4, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 255, 52, 50));
-
-        F3.setText("jLabel1");
         getContentPane().add(F3, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 307, 52, 50));
-
-        G6.setText("jLabel1");
         getContentPane().add(G6, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 155, 52, 50));
-
-        G5.setText("jLabel1");
         getContentPane().add(G5, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 205, 52, 50));
-
-        G4.setText("jLabel1");
         getContentPane().add(G4, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 255, 52, 50));
-
-        G3.setText("jLabel1");
         getContentPane().add(G3, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 307, 52, 50));
-
-        H6.setText("jLabel1");
         getContentPane().add(H6, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 155, 52, 50));
-
-        H5.setText("jLabel1");
         getContentPane().add(H5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 205, 52, 50));
-
-        H4.setText("jLabel1");
         getContentPane().add(H4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 255, 52, 50));
-
-        H3.setText("jLabel1");
         getContentPane().add(H3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 307, 52, 50));
-
-        A1.setText("jLabel1");
         getContentPane().add(A1, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 410, 52, 50));
-
-        A2.setText("jLabel1");
         getContentPane().add(A2, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 357, 52, 50));
-
-        B1.setText("jLabel1");
         getContentPane().add(B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 407, 52, 50));
-
-        B2.setText("jLabel1");
         getContentPane().add(B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 355, 52, 50));
-
-        C1.setText("jLabel1");
         getContentPane().add(C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 407, 52, 50));
+        C1.getAccessibleContext().setAccessibleName("");
 
-        C2.setText("jLabel1");
         getContentPane().add(C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 355, 52, 50));
+        C2.getAccessibleContext().setAccessibleName("");
 
-        D1.setText("jLabel1");
         getContentPane().add(D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 407, 52, 50));
+        D1.getAccessibleContext().setAccessibleName("");
 
-        D2.setText("jLabel1");
         getContentPane().add(D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 355, 52, 50));
+        D2.getAccessibleContext().setAccessibleName("");
 
-        E1.setText("jLabel1");
         getContentPane().add(E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 407, 52, 50));
+        E1.getAccessibleContext().setAccessibleName("");
 
-        E2.setText("jLabel1");
         getContentPane().add(E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 355, 52, 50));
+        E2.getAccessibleContext().setAccessibleName("");
 
-        F1.setText("jLabel1");
         getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 407, 52, 50));
+        F1.getAccessibleContext().setAccessibleName("");
 
-        F2.setText("jLabel1");
         getContentPane().add(F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 356, 52, 50));
+        F2.getAccessibleContext().setAccessibleName("");
 
-        G1.setText("jLabel1");
         getContentPane().add(G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 407, 52, 50));
+        G1.getAccessibleContext().setAccessibleName("");
 
-        G2.setText("jLabel1");
         getContentPane().add(G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 355, 52, 50));
+        G2.getAccessibleContext().setAccessibleName("");
 
-        H1.setText("jLabel1");
         getContentPane().add(H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 407, 52, 50));
+        H1.getAccessibleContext().setAccessibleName("");
 
-        H2.setText("jLabel1");
         getContentPane().add(H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 358, 52, 50));
+        H2.getAccessibleContext().setAccessibleName("");
 
-        A8.setText("jLabel1");
         getContentPane().add(A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 48, 52, 50));
+        A8.getAccessibleContext().setAccessibleName("");
 
-        A7.setText("jLabel1");
-        getContentPane().add(A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 102, 52, 50));
-
-        B7.setText("jLabel1");
+        getContentPane().add(A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 52, 50));
         getContentPane().add(B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 102, 52, 50));
-
-        B8.setText("jLabel1");
         getContentPane().add(B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 52, 52, 50));
-
-        C8.setText("jLabel1");
         getContentPane().add(C8, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 52, 52, 50));
-
-        C7.setText("jLabel1");
         getContentPane().add(C7, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 102, 52, 50));
-
-        D8.setText("jLabel1");
         getContentPane().add(D8, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 52, 52, 50));
-
-        D7.setText("jLabel1");
         getContentPane().add(D7, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 102, 52, 50));
-
-        E8.setText("jLabel1");
         getContentPane().add(E8, new org.netbeans.lib.awtextra.AbsoluteConstraints(256, 52, 52, 50));
-
-        E7.setText("jLabel1");
         getContentPane().add(E7, new org.netbeans.lib.awtextra.AbsoluteConstraints(256, 102, 52, 50));
-
-        F8.setText("jLabel1");
         getContentPane().add(F8, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 52, 52, 50));
-
-        F7.setText("jLabel1");
         getContentPane().add(F7, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 102, 52, 50));
-
-        G8.setText("jLabel1");
         getContentPane().add(G8, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 52, 52, 50));
-
-        G7.setText("jLabel1");
         getContentPane().add(G7, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 102, 52, 50));
-
-        H8.setText("jLabel1");
         getContentPane().add(H8, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 52, 52, 50));
-
-        H7.setText("jLabel1");
         getContentPane().add(H7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 102, 52, 50));
+
+        FondoTablero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoTablero.png"))); // NOI18N
+        getContentPane().add(FondoTablero, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 512, 512));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void PeonN_A7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PeonN_A7MouseClicked
+       Peon Prueba=new Peon(A7.getLocation(), "N");
+       Prueba.Mover();
+    }//GEN-LAST:event_PeonN_A7MouseClicked
+    public JLabel getA6(){
+        return A6;
+    }    
+    public JLabel getA5(){
+        return A5;
+    }
+    public JLabel getA7(){
+        return A7;
+    }
+    public void setBorderA6(){
+        A6.setBorder(BorderFactory.createLineBorder(Color.red, 4));
+    }
+    
     /**
      * @param args the command line arguments
      */

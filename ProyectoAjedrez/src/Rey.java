@@ -1,4 +1,4 @@
-package Ajedrez;
+
 
 public class Rey extends Fichas {
     private String color,posicion;

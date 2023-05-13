@@ -1,9 +1,10 @@
-package Ajedrez;
 
-public class Reina extends Fichas {
+
+public class Torre extends Fichas {
+
     private String color,posicion;
 
-    public Reina (String posicion, String color) {
+    public Torre (String posicion, String color) {
         super(posicion, color);
     }
 
@@ -26,5 +27,7 @@ public class Reina extends Fichas {
     public void mover (String mover) {
         
     }
-    
+
+
+
 }

@@ -1,9 +1,9 @@
-package Ajedrez;
 
-public class Caballo extends Fichas {
+
+public class Reina extends Fichas {
     private String color,posicion;
 
-    public Caballo (String posicion, String color) {
+    public Reina (String posicion, String color) {
         super(posicion, color);
     }
 
