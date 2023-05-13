@@ -1,10 +1,11 @@
 
 
-public class Caballo extends Fichas {
+public class Caballo {
     private String color,posicion;
 
     public Caballo (String posicion, String color) {
-        super(posicion, color);
+        this.posicion = posicion;
+        this.color = color;
     }
 
     public String getColor () {

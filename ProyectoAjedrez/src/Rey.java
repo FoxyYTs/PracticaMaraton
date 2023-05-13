@@ -1,10 +1,11 @@
 
 
-public class Rey extends Fichas {
+public class Rey {
     private String color,posicion;
 
     public Rey (String posicion, String color) {
-        super(posicion, color);
+        this.posicion = posicion;
+        this.color = color;
     }
 
     public String getColor () {

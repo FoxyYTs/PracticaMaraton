@@ -1,10 +1,11 @@
 
 
-public class Reina extends Fichas {
+public class Reina {
     private String color,posicion;
 
     public Reina (String posicion, String color) {
-        super(posicion, color);
+        this.posicion = posicion;
+        this.color = color;
     }
 
     public String getColor () {

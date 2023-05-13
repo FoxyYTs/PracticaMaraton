@@ -1,10 +1,11 @@
 
 
-public class Alfil extends Fichas {
+public class Alfil {
     private String color,posicion;
 
     public Alfil (String posicion, String color) {
-        super(posicion, color);
+        this.posicion = posicion;
+        this.color = color;
     }
 
     public String getColor () {

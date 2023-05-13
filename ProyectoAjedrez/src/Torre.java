@@ -1,11 +1,11 @@
 
 
-public class Torre extends Fichas {
+public class Torre {
 
     private String color,posicion;
 
     public Torre (String posicion, String color) {
-        super(posicion, color);
+        this.posicion = posicion;
     }
 
     public String getColor () {
