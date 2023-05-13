@@ -1,12 +1,16 @@
 package Ajedrez;
 
 public class Peon extends Fichas{
-    public Peon(String posicion, String color){
-        super(posicion, color);
+    public Peon(int posicionx,int posiciony, String color){
+        super(posicionx,posiciony,color);
     }
 
     @Override
-    public void mover(String movimiento){
-        if (posicion )
+    public void mover(int movimientox, int movimientoy){
+        if (getColor().equals("W")){
+            if(getPosicionY() == 2){
+                
+            }
+        }
     }
 }

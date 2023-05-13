@@ -33,6 +33,6 @@ public class Fichas {
         return color;
     }
 
-    public void mover(String posicion){
+    public void mover(int movimientox, int movimientoy){
     }
 }
