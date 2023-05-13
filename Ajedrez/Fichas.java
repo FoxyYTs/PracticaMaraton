@@ -1,9 +1,8 @@
 package Ajedrez;
 
-public class Peon extends Fichas{
+public class Fichas {
     private String posición,color;
-    public Peon(String posicion, String color){
-        super(posicion, color);
+    public Fichas(String posicion, String color){
         this.posición = posicion;
         this.color = color;
     }
