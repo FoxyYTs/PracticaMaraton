@@ -5,4 +5,8 @@ public class Peon extends Fichas{
         super(posicion, color);
     }
 
+    @Override
+    public void mover(String movimiento){
+        if (posicion )
+    }
 }
