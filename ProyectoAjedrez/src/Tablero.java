@@ -1,10 +1,8 @@
 
 import java.awt.Color;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import java.awt.Cursor;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
-import javax.swing.border.Border;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -163,6 +161,9 @@ public class Tablero extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 PeonN_A7MouseClicked(evt);
             }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                PeonN_A7MouseEntered(evt);
+            }
         });
         getContentPane().add(PeonN_A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 50, 55));
 
@@ -239,8 +240,8 @@ public class Tablero extends javax.swing.JFrame {
         getContentPane().add(PeonW_H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 355, 50, 55));
 
         A6.setForeground(new java.awt.Color(242, 242, 242));
-        getContentPane().add(A6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 155, 52, 50));
-        getContentPane().add(A5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 205, 52, 50));
+        getContentPane().add(A6, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 154, 52, 50));
+        getContentPane().add(A5, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 205, 52, 50));
         getContentPane().add(A4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 255, 52, 50));
         getContentPane().add(A3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 307, 52, 50));
         getContentPane().add(B6, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 155, 52, 50));
@@ -276,44 +277,18 @@ public class Tablero extends javax.swing.JFrame {
         getContentPane().add(B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 407, 52, 50));
         getContentPane().add(B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 355, 52, 50));
         getContentPane().add(C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 407, 52, 50));
-        C1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 355, 52, 50));
-        C2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 407, 52, 50));
-        D1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 355, 52, 50));
-        D2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 407, 52, 50));
-        E1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 355, 52, 50));
-        E2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 407, 52, 50));
-        F1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 356, 52, 50));
-        F2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 407, 52, 50));
-        G1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 355, 52, 50));
-        G2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 407, 52, 50));
-        H1.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 358, 52, 50));
-        H2.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 48, 52, 50));
-        A8.getAccessibleContext().setAccessibleName("");
-
         getContentPane().add(A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 52, 50));
         getContentPane().add(B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 102, 52, 50));
         getContentPane().add(B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 52, 52, 50));
@@ -337,22 +312,140 @@ public class Tablero extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void PeonN_A7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PeonN_A7MouseClicked
-       Peon Prueba=new Peon(A7.getLocation(), "N");
-       Prueba.Mover();
+       Peon N=new Peon("N", this);
+       N.setPosicion(A7.getLocation());
+       N.Mover();
     }//GEN-LAST:event_PeonN_A7MouseClicked
-    public JLabel getA6(){
-        return A6;
-    }    
-    public JLabel getA5(){
-        return A5;
+
+    private void PeonN_A7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PeonN_A7MouseEntered
+        Cursor cursor = new Cursor(Cursor.HAND_CURSOR);
+        PeonN_A7.setCursor(cursor);
+    }//GEN-LAST:event_PeonN_A7MouseEntered
+    private JLabel[][] Tablero=new JLabel[8][8];
+    public void LlenarMatriz(){
+        Tablero[0][0]=A8;
+        
     }
     public JLabel getA7(){
         return A7;
     }
-    public void setBorderA6(){
-        A6.setBorder(BorderFactory.createLineBorder(Color.red, 4));
+    public JLabel getB7(){
+        return B7;
     }
-    
+    public JLabel getC7(){
+        return C7;
+    }
+    public JLabel getD7(){
+        return D7;
+    }
+    public JLabel getE7(){
+        return E7;
+    }
+    public JLabel getF7(){
+        return F7;
+    }
+    public JLabel getG7(){
+        return G7;
+    }
+    public JLabel getH7(){
+        return H7;
+    }    
+    public void setBorderA6(){
+        A6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getA6(){
+        return A6;
+    }
+    public void setBorderA5(){
+        A5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getA5(){
+        return A5;
+    }
+    public void setBorderB5(){
+        B5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getB5(){
+        return B5;
+    }
+    public void setBorderB6(){
+        B6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getB6(){
+        return B6;
+    }
+    public void setBorderC5(){
+        C5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getC5(){
+        return C5;
+    }
+    public void setBorderC6(){
+        C6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getC6(){
+        return C6;
+    }
+    public void setBorderD5(){
+        D5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getD5(){
+        return D5;
+    }
+    public void setBorderD6(){
+        D6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getD6(){
+        return D6;
+    }
+    public void setBorderE5(){
+        E5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getE5(){
+        return E5;
+    }
+    public void setBorderE6(){
+        E6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getE6(){
+        return E6;
+    } 
+    public void setBorderF5(){
+        F5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getF5(){
+        return F5;
+    }
+    public void setBorderF6(){
+        F6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getF6(){
+        return F6;
+    }
+    public void setBorderG5(){
+        G5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getG5(){
+        return G5;
+    }
+    public void setBorderG6(){
+        G6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getG6(){
+        return G6;
+    }
+    public void setBorderH5(){
+        H5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getH5(){
+        return H5;
+    }
+    public void setBorderH6(){
+        H6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public JLabel getH6(){
+        return H6;
+    }
     /**
      * @param args the command line arguments
      */

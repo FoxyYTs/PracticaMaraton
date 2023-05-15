@@ -1,20 +1,23 @@
 
-import java.awt.Color;
 import java.awt.Point;
-import javax.swing.BorderFactory;
 
 
 
 public class Peon{
-    Tablero Tablero=new Tablero();
-    private Point posicion;
-    private String color;
-    public Peon(Point posicion, String color) {
-        this.posicion=posicion;
-        this.color=color;
+
+    private Point Posicion;
+    private String Color;
+    private Tablero T=new Tablero();
+    public Peon(String Color, Tablero T) {
+        this.Color=Color;
+        this.T=T;
+    }
+    public void setPosicion(Point Posicion){
+        this.Posicion=Posicion;
     }
     public void Mover(){
-            Tablero.setBorderA6();
+            T.setBorderA6();
+            T.setBorderA5();
     }
    
 }

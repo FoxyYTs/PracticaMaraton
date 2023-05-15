@@ -117,6 +117,7 @@
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PeonN_A7MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PeonN_A7MouseEntered"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -420,14 +421,14 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="50" y="155" width="52" height="50"/>
+          <AbsoluteConstraints x="51" y="154" width="52" height="50"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="A5">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="50" y="205" width="52" height="50"/>
+          <AbsoluteConstraints x="51" y="205" width="52" height="50"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -670,9 +671,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="C1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="151" y="407" width="52" height="50"/>
@@ -680,9 +678,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="C2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="157" y="355" width="52" height="50"/>
@@ -690,9 +685,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="D1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="208" y="407" width="52" height="50"/>
@@ -700,9 +692,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="D2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="205" y="355" width="52" height="50"/>
@@ -710,9 +699,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="E1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="255" y="407" width="52" height="50"/>
@@ -720,9 +706,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="E2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="255" y="355" width="52" height="50"/>
@@ -730,9 +713,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="F1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="310" y="407" width="52" height="50"/>
@@ -740,9 +720,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="F2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="308" y="356" width="52" height="50"/>
@@ -750,9 +727,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="G1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="361" y="407" width="52" height="50"/>
@@ -760,9 +734,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="G2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="360" y="355" width="52" height="50"/>
@@ -770,9 +741,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="H1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="414" y="407" width="52" height="50"/>
@@ -780,9 +748,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="H2">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="410" y="358" width="52" height="50"/>
@@ -790,9 +755,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="A8">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
-      </AccessibilityProperties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="52" y="48" width="52" height="50"/>
