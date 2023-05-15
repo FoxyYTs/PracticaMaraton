@@ -1,6 +1,7 @@
 
 import java.awt.Color;
 import java.awt.Cursor;
+import java.awt.Point;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 
@@ -323,71 +324,78 @@ public class Tablero extends javax.swing.JFrame {
     }//GEN-LAST:event_PeonN_A7MouseEntered
     private Point[][] Tablero=new Point[8][8];
     public void LlenarMatriz(){
+        //FILA 8
         Tablero[0][0]=A8.getLocation();
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        Tablero[0][0]=A8;
-        
+        Tablero[0][1]=B8.getLocation();
+        Tablero[0][2]=C8.getLocation();
+        Tablero[0][3]=D8.getLocation();
+        Tablero[0][4]=E8.getLocation();
+        Tablero[0][5]=F8.getLocation();
+        Tablero[0][6]=G8.getLocation();
+        Tablero[0][7]=H8.getLocation();
+        //FILA 7
+        Tablero[1][0]=A7.getLocation();
+        Tablero[1][1]=B7.getLocation();
+        Tablero[1][2]=C7.getLocation();
+        Tablero[1][3]=D7.getLocation();
+        Tablero[1][4]=E7.getLocation();
+        Tablero[1][5]=F7.getLocation();
+        Tablero[1][6]=G7.getLocation();
+        Tablero[1][7]=H7.getLocation();
+        //FILA 6
+        Tablero[2][0]=A6.getLocation();
+        Tablero[2][1]=B6.getLocation();
+        Tablero[2][2]=C6.getLocation();
+        Tablero[2][3]=D6.getLocation();
+        Tablero[2][4]=E6.getLocation();
+        Tablero[2][5]=F6.getLocation();
+        Tablero[2][6]=G6.getLocation();
+        Tablero[2][7]=H6.getLocation();
+        //FILA 5
+        Tablero[3][0]=A5.getLocation();
+        Tablero[3][1]=B5.getLocation();
+        Tablero[3][2]=C5.getLocation();
+        Tablero[3][3]=D5.getLocation();
+        Tablero[3][4]=E5.getLocation();
+        Tablero[3][5]=F5.getLocation();
+        Tablero[3][6]=G5.getLocation();
+        Tablero[3][7]=H5.getLocation();
+        //FILA 4
+        Tablero[4][0]=A4.getLocation();
+        Tablero[4][1]=B4.getLocation();
+        Tablero[4][2]=C4.getLocation();
+        Tablero[4][3]=D4.getLocation();
+        Tablero[4][4]=E4.getLocation();
+        Tablero[4][5]=F4.getLocation();
+        Tablero[4][6]=G4.getLocation();
+        Tablero[4][7]=H4.getLocation();
+        //FILA 3
+        Tablero[5][0]=A3.getLocation();
+        Tablero[5][1]=B3.getLocation();
+        Tablero[5][2]=C3.getLocation();
+        Tablero[5][3]=D3.getLocation();
+        Tablero[5][4]=E3.getLocation();
+        Tablero[5][5]=F3.getLocation();
+        Tablero[5][6]=G3.getLocation();
+        Tablero[5][7]=H3.getLocation();
+        //FILA 2
+        Tablero[6][0]=A2.getLocation();
+        Tablero[6][1]=B2.getLocation();
+        Tablero[6][2]=C2.getLocation();
+        Tablero[6][3]=D2.getLocation();
+        Tablero[6][4]=E2.getLocation();
+        Tablero[6][5]=F2.getLocation();
+        Tablero[6][6]=G2.getLocation();
+        Tablero[6][7]=H2.getLocation();
+        //FILA 1
+        Tablero[7][0]=A1.getLocation();
+        Tablero[7][1]=B1.getLocation();
+        Tablero[7][2]=C1.getLocation();
+        Tablero[7][3]=D1.getLocation();
+        Tablero[7][4]=E1.getLocation();
+        Tablero[7][5]=F1.getLocation();
+        Tablero[7][6]=G1.getLocation();
+        Tablero[7][7]=H1.getLocation();
     }
     public JLabel getA7(){
         return A7;
