@@ -136,28 +136,38 @@ public class Tablero extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        PeonN_H7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_H7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_H7, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 100, 50, 55));
+        getContentPane().add(PeonN_H7, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 100, 54, 54));
 
+        PeonN_G7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_G7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_G7, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 100, 50, 55));
+        getContentPane().add(PeonN_G7, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 100, 54, 54));
 
+        PeonN_F7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_F7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_F7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, 50, 55));
+        getContentPane().add(PeonN_F7, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 100, 54, 54));
 
+        PeonN_E7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_E7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_E7, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 100, 50, 55));
+        getContentPane().add(PeonN_E7, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 100, 54, 54));
 
+        PeonN_D7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_D7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_D7, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 100, 50, 55));
+        getContentPane().add(PeonN_D7, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 100, 54, 54));
 
+        PeonN_C7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_C7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_C7, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 100, 50, 55));
+        getContentPane().add(PeonN_C7, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 100, 54, 54));
 
+        PeonN_B7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_B7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
-        getContentPane().add(PeonN_B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 100, 50, 55));
+        getContentPane().add(PeonN_B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 100, 54, 54));
 
+        PeonN_A7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonN_A7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonNegro.png"))); // NOI18N
+        PeonN_A7.setAlignmentY(0.0F);
+        PeonN_A7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         PeonN_A7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 PeonN_A7MouseClicked(evt);
@@ -166,145 +176,169 @@ public class Tablero extends javax.swing.JFrame {
                 PeonN_A7MouseEntered(evt);
             }
         });
-        getContentPane().add(PeonN_A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 50, 55));
+        getContentPane().add(PeonN_A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 54, 54));
 
+        TorreN_H8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TorreN_H8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegro.png"))); // NOI18N
-        getContentPane().add(TorreN_H8, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 48, 50, 55));
+        getContentPane().add(TorreN_H8, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 48, 54, 54));
 
+        TorreN_A8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TorreN_A8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegro.png"))); // NOI18N
-        getContentPane().add(TorreN_A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 48, 50, 55));
+        getContentPane().add(TorreN_A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 48, 54, 54));
 
+        ReyN_E8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         ReyN_E8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReyNegro.png"))); // NOI18N
-        getContentPane().add(ReyN_E8, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 48, 50, 55));
+        getContentPane().add(ReyN_E8, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 48, 54, 54));
 
+        AlfilN_F8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AlfilN_F8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
-        getContentPane().add(AlfilN_F8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 48, 50, 55));
+        getContentPane().add(AlfilN_F8, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 48, 54, 54));
 
+        AlfilN_C8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AlfilN_C8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
-        getContentPane().add(AlfilN_C8, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 48, 50, 55));
+        getContentPane().add(AlfilN_C8, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 48, 54, 54));
 
+        CaballoN_G8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CaballoN_G8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
-        getContentPane().add(CaballoN_G8, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 48, 50, 55));
+        getContentPane().add(CaballoN_G8, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 48, 54, 54));
 
+        CaballoN_B8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CaballoN_B8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
-        getContentPane().add(CaballoN_B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 49, 50, 55));
+        getContentPane().add(CaballoN_B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 48, 54, 54));
 
+        ReinaN_D8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         ReinaN_D8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReinaNegra.png"))); // NOI18N
-        getContentPane().add(ReinaN_D8, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 48, 50, 55));
+        getContentPane().add(ReinaN_D8, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 48, 54, 54));
 
+        TorreW_A1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TorreW_A1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreBlanca.png"))); // NOI18N
-        getContentPane().add(TorreW_A1, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 407, 50, 55));
+        getContentPane().add(TorreW_A1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 407, 54, 54));
 
+        TorreW_H1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TorreW_H1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreBlanca.png"))); // NOI18N
-        getContentPane().add(TorreW_H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(415, 407, 50, 55));
+        getContentPane().add(TorreW_H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 407, 54, 54));
 
+        CaballoW_B1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CaballoW_B1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoBlanco.png"))); // NOI18N
-        getContentPane().add(CaballoW_B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 407, 50, 55));
+        getContentPane().add(CaballoW_B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 407, 54, 54));
 
+        CaballoW_G1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CaballoW_G1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoBlanco.png"))); // NOI18N
-        getContentPane().add(CaballoW_G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 407, 50, 55));
+        getContentPane().add(CaballoW_G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 407, 54, 54));
 
+        AlfilW_C1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AlfilW_C1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilBlanco.png"))); // NOI18N
-        getContentPane().add(AlfilW_C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 407, 50, 55));
+        getContentPane().add(AlfilW_C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 407, 54, 54));
 
+        AlfilW_F1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AlfilW_F1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilBlanco.png"))); // NOI18N
-        getContentPane().add(AlfilW_F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 407, 50, 55));
+        getContentPane().add(AlfilW_F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 407, 54, 54));
 
+        ReinaW_D1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         ReinaW_D1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReinaBlanca.png"))); // NOI18N
-        getContentPane().add(ReinaW_D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 407, 50, 55));
+        getContentPane().add(ReinaW_D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 407, 54, 54));
 
+        ReyW_E1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         ReyW_E1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReyBlanco.png"))); // NOI18N
-        getContentPane().add(ReyW_E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 407, 50, 55));
+        getContentPane().add(ReyW_E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 407, 54, 54));
 
+        PeonW_A2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_A2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_A2, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 355, 50, 55));
+        getContentPane().add(PeonW_A2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 355, 54, 54));
 
+        PeonW_B2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_B2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(107, 355, 50, 55));
+        getContentPane().add(PeonW_B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 355, 54, 54));
 
+        PeonW_C2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_C2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 355, 50, 55));
+        getContentPane().add(PeonW_C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 355, 54, 54));
 
+        PeonW_D2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_D2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 355, 50, 55));
+        getContentPane().add(PeonW_D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 355, 54, 54));
 
+        PeonW_E2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_E2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 355, 50, 55));
+        getContentPane().add(PeonW_E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 355, 54, 54));
 
+        PeonW_F2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_F2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 355, 50, 55));
+        getContentPane().add(PeonW_F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 355, 54, 54));
 
+        PeonW_G2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_G2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(362, 355, 50, 55));
+        getContentPane().add(PeonW_G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 355, 54, 54));
 
+        PeonW_H2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PeonW_H2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PeonBlanco.png"))); // NOI18N
-        getContentPane().add(PeonW_H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 355, 50, 55));
+        getContentPane().add(PeonW_H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 355, 54, 54));
 
         A6.setForeground(new java.awt.Color(242, 242, 242));
-        getContentPane().add(A6, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 154, 52, 50));
-        getContentPane().add(A5, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 205, 52, 50));
-        getContentPane().add(A4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 255, 52, 50));
-        getContentPane().add(A3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 307, 52, 50));
-        getContentPane().add(B6, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 155, 52, 50));
-        getContentPane().add(B5, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 205, 52, 50));
-        getContentPane().add(B4, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 255, 52, 50));
-        getContentPane().add(B3, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 307, 52, 50));
-        getContentPane().add(C6, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 155, 52, 50));
-        getContentPane().add(C5, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 205, 52, 50));
-        getContentPane().add(C4, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 255, 52, 50));
-        getContentPane().add(C3, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 307, 52, 50));
-        getContentPane().add(D6, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 155, 52, 50));
-        getContentPane().add(D5, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 205, 52, 50));
-        getContentPane().add(D4, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 255, 52, 50));
-        getContentPane().add(D3, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 307, 52, 50));
-        getContentPane().add(E6, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 155, 52, 50));
-        getContentPane().add(E5, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 205, 52, 50));
-        getContentPane().add(E4, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 255, 52, 50));
-        getContentPane().add(E3, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 307, 52, 50));
-        getContentPane().add(F6, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 155, 52, 50));
-        getContentPane().add(F5, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 205, 52, 50));
-        getContentPane().add(F4, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 255, 52, 50));
-        getContentPane().add(F3, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 307, 52, 50));
-        getContentPane().add(G6, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 155, 52, 50));
-        getContentPane().add(G5, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 205, 52, 50));
-        getContentPane().add(G4, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 255, 52, 50));
-        getContentPane().add(G3, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 307, 52, 50));
-        getContentPane().add(H6, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 155, 52, 50));
-        getContentPane().add(H5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 205, 52, 50));
-        getContentPane().add(H4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 255, 52, 50));
-        getContentPane().add(H3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 307, 52, 50));
-        getContentPane().add(A1, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 407, 52, 50));
-        getContentPane().add(A2, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 355, 52, 50));
-        getContentPane().add(B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 407, 52, 50));
-        getContentPane().add(B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(107, 355, 52, 50));
-        getContentPane().add(C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 407, 52, 50));
-        getContentPane().add(C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 355, 52, 50));
-        getContentPane().add(D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 407, 52, 50));
-        getContentPane().add(D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 355, 52, 50));
-        getContentPane().add(E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 407, 52, 50));
-        getContentPane().add(E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 355, 52, 50));
-        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 407, 52, 50));
-        getContentPane().add(F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 355, 52, 50));
-        getContentPane().add(G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 407, 52, 50));
-        getContentPane().add(G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(362, 355, 52, 50));
-        getContentPane().add(H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(415, 407, 52, 50));
-        getContentPane().add(H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 355, 52, 50));
-        getContentPane().add(A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 48, 52, 50));
-        getContentPane().add(A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 100, 52, 50));
-        getContentPane().add(B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 100, 52, 50));
-        getContentPane().add(B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 49, 52, 50));
-        getContentPane().add(C8, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 58, 52, 50));
-        getContentPane().add(C7, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 100, 52, 50));
-        getContentPane().add(D8, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 48, 52, 50));
-        getContentPane().add(D7, new org.netbeans.lib.awtextra.AbsoluteConstraints(208, 100, 52, 50));
-        getContentPane().add(E8, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 48, 52, 50));
-        getContentPane().add(E7, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 100, 52, 50));
-        getContentPane().add(F8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 48, 52, 50));
-        getContentPane().add(F7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, 52, 50));
-        getContentPane().add(G8, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 48, 52, 50));
-        getContentPane().add(G7, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 100, 52, 50));
-        getContentPane().add(H8, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 48, 52, 50));
-        getContentPane().add(H7, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 100, 52, 50));
+        getContentPane().add(A6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 152, 54, 54));
+        getContentPane().add(A5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 204, 54, 54));
+        getContentPane().add(A4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 254, 54, 54));
+        getContentPane().add(A3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 304, 54, 54));
+        getContentPane().add(B6, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 152, 54, 54));
+        getContentPane().add(B5, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 204, 54, 54));
+        getContentPane().add(B4, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 254, 54, 54));
+        getContentPane().add(B3, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 304, 54, 54));
+        getContentPane().add(C6, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 152, 54, 54));
+        getContentPane().add(C5, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 204, 54, 54));
+        getContentPane().add(C4, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 254, 54, 54));
+        getContentPane().add(C3, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 304, 54, 54));
+        getContentPane().add(D6, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 152, 54, 54));
+        getContentPane().add(D5, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 204, 54, 54));
+        getContentPane().add(D4, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 254, 54, 54));
+        getContentPane().add(D3, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 304, 54, 54));
+        getContentPane().add(E6, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 152, 54, 54));
+        getContentPane().add(E5, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 204, 54, 54));
+        getContentPane().add(E4, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 254, 54, 54));
+        getContentPane().add(E3, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 304, 54, 54));
+        getContentPane().add(F6, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 152, 54, 54));
+        getContentPane().add(F5, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 204, 54, 54));
+        getContentPane().add(F4, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 254, 54, 54));
+        getContentPane().add(F3, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 304, 54, 54));
+        getContentPane().add(G6, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 152, 54, 54));
+        getContentPane().add(G5, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 204, 54, 54));
+        getContentPane().add(G4, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 254, 54, 54));
+        getContentPane().add(G3, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 304, 54, 54));
+        getContentPane().add(H6, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 152, 54, 54));
+        getContentPane().add(H5, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 204, 54, 54));
+        getContentPane().add(H4, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 254, 54, 54));
+        getContentPane().add(H3, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 304, 54, 54));
+        getContentPane().add(A1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 407, 54, 54));
+        getContentPane().add(A2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 355, 54, 54));
+        getContentPane().add(B1, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 407, 54, 54));
+        getContentPane().add(B2, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 355, 54, 54));
+        getContentPane().add(C1, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 407, 54, 54));
+        getContentPane().add(C2, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 355, 54, 54));
+        getContentPane().add(D1, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 407, 54, 54));
+        getContentPane().add(D2, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 355, 54, 54));
+        getContentPane().add(E1, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 407, 54, 54));
+        getContentPane().add(E2, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 355, 54, 54));
+        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 407, 54, 54));
+        getContentPane().add(F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 355, 54, 54));
+        getContentPane().add(G1, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 407, 54, 54));
+        getContentPane().add(G2, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 355, 54, 54));
+        getContentPane().add(H1, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 407, 54, 54));
+        getContentPane().add(H2, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 355, 54, 54));
+        getContentPane().add(A8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 48, 54, 54));
+        getContentPane().add(A7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 54, 54));
+        getContentPane().add(B7, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 100, 54, 54));
+        getContentPane().add(B8, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 48, 54, 54));
+        getContentPane().add(C8, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 48, 54, 54));
+        getContentPane().add(C7, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 100, 54, 54));
+        getContentPane().add(D8, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 48, 54, 54));
+        getContentPane().add(D7, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 100, 54, 54));
+        getContentPane().add(E8, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 48, 54, 54));
+        getContentPane().add(E7, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 100, 54, 54));
+        getContentPane().add(F8, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 48, 54, 54));
+        getContentPane().add(F7, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 100, 54, 54));
+        getContentPane().add(G8, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 48, 54, 54));
+        getContentPane().add(G7, new org.netbeans.lib.awtextra.AbsoluteConstraints(358, 100, 54, 54));
+        getContentPane().add(H8, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 48, 54, 54));
+        getContentPane().add(H7, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 100, 54, 54));
 
         FondoTablero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoTablero.png"))); // NOI18N
         getContentPane().add(FondoTablero, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 512, 512));
@@ -313,9 +347,8 @@ public class Tablero extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void PeonN_A7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PeonN_A7MouseClicked
-       Peon N=new Peon("N", this);
-       N.setPosicion(A7.getLocation());
-       N.Mover();
+        Peon N_A7=new Peon(PeonN_A7, "N", this);
+        N_A7.Mover();
     }//GEN-LAST:event_PeonN_A7MouseClicked
 
     private void PeonN_A7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PeonN_A7MouseEntered
@@ -524,7 +557,7 @@ public class Tablero extends javax.swing.JFrame {
         C1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
     }
     public void setBorderC2(){
-        A2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+        C2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
     }
     public void setBorderC3(){
         C3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
