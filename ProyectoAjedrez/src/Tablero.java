@@ -397,126 +397,400 @@ public class Tablero extends javax.swing.JFrame {
         Tablero[7][6]=G1.getLocation();
         Tablero[7][7]=H1.getLocation();
     }
-    public JLabel getA7(){
-        return A7;
+    public JLabel getA1(){
+        return A1;
     }
-    public JLabel getB7(){
-        return B7;
+    public JLabel getA2(){
+        return A2;
     }
-    public JLabel getC7(){
-        return C7;
+    public JLabel getA3(){
+        return A3;
     }
-    public JLabel getD7(){
-        return D7;
-    }
-    public JLabel getE7(){
-        return E7;
-    }
-    public JLabel getF7(){
-        return F7;
-    }
-    public JLabel getG7(){
-        return G7;
-    }
-    public JLabel getH7(){
-        return H7;
-    }    
-    public void setBorderA6(){
-        A6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
-    public JLabel getA6(){
-        return A6;
-    }
-    public void setBorderA5(){
-        A5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getA4(){
+        return A4;
     }
     public JLabel getA5(){
         return A5;
     }
-    public void setBorderB5(){
-        B5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getA6(){
+        return A6;
+    }
+    public JLabel getA7(){
+        return A7;
+    }
+    public JLabel getA8(){
+        return A8;
+    }
+    public void setBorderA1(){
+        A1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA2(){
+        A2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA3(){
+        A3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA4(){
+        A4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA5(){
+        A5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA6(){
+        A6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA7(){
+        A7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderA8(){
+        A8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    //B
+    public JLabel getB1(){
+        return B1;
+    }
+    public JLabel getB2(){
+        return B2;
+    }
+    public JLabel getB3(){
+        return B3;
+    }
+    public JLabel getB4(){
+        return B4;
     }
     public JLabel getB5(){
         return B5;
     }
-    public void setBorderB6(){
-        B6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getB6(){
         return B6;
     }
-    public void setBorderC5(){
-        C5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getB7(){
+        return B7;
+    }
+    public JLabel getB8(){
+        return B8;
+    }
+    public void setBorderB1(){
+        B1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB2(){
+        B2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB3(){
+        B3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB4(){
+        B4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB5(){
+        B5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB6(){
+        B6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB7(){
+        B7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderB8(){
+        B8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }  
+    //C
+    public JLabel getC1(){
+        return C1;
+    }
+    public JLabel getC2(){
+        return C2;
+    }
+    public JLabel getC3(){
+        return C3;
+    }
+    public JLabel getC4(){
+        return C4;
     }
     public JLabel getC5(){
         return C5;
     }
-    public void setBorderC6(){
-        C6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getC6(){
         return C6;
     }
-    public void setBorderD5(){
-        D5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getC7(){
+        return C7;
+    }
+    public JLabel getC8(){
+        return C8;
+    }
+    public void setBorderC1(){
+        C1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC2(){
+        A2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC3(){
+        C3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC4(){
+        C4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC5(){
+        C5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC6(){
+        C6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC7(){
+        C7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderC8(){
+        C8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }   
+    //D
+    public JLabel getD1(){
+        return D1;
+    }
+    public JLabel getD2(){
+        return D2;
+    }
+    public JLabel getD3(){
+        return D3;
+    }
+    public JLabel getD4(){
+        return D4;
     }
     public JLabel getD5(){
         return D5;
     }
-    public void setBorderD6(){
-        D6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getD6(){
         return D6;
     }
-    public void setBorderE5(){
-        E5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getD7(){
+        return D7;
+    }
+    public JLabel getD8(){
+        return D8;
+    }
+    public void setBorderD1(){
+        D1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD2(){
+        D2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD3(){
+        D3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD4(){
+        D4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD5(){
+        D5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD6(){
+        D6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD7(){
+        D7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderD8(){
+        D8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    //E
+    public JLabel getE1(){
+        return E1;
+    }
+    public JLabel getE2(){
+        return E2;
+    }
+    public JLabel getE3(){
+        return E3;
+    }
+    public JLabel getE4(){
+        return E4;
     }
     public JLabel getE5(){
         return E5;
     }
+    public JLabel getE6(){
+        return E6;
+    }
+    public JLabel getE7(){
+        return E7;
+    }
+    public JLabel getE8(){
+        return E8;
+    }
+    public void setBorderE1(){
+        E1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderE2(){
+        E2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderE3(){
+        E3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderE4(){
+        E4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderE5(){
+        E5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
     public void setBorderE6(){
         E6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
     }
-    public JLabel getE6(){
-        return E6;
-    } 
-    public void setBorderF5(){
-        F5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public void setBorderE7(){
+        E7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderE8(){
+        E8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }   
+    //F
+    public JLabel getF1(){
+        return F1;
+    }
+    public JLabel getF2(){
+        return F2;
+    }
+    public JLabel getF3(){
+        return F3;
+    }
+    public JLabel getF4(){
+        return F4;
     }
     public JLabel getF5(){
         return F5;
     }
-    public void setBorderF6(){
-        F6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getF6(){
         return F6;
     }
-    public void setBorderG5(){
-        G5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getF7(){
+        return F7;
+    }
+    public JLabel getF8(){
+        return F8;
+    }
+    public void setBorderF1(){
+        F1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF2(){
+        F2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF3(){
+        F3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF4(){
+        F4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF5(){
+        F5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF6(){
+        F6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF7(){
+        F7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderF8(){
+        F8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }  
+    //G
+    public JLabel getG1(){
+        return G1;
+    }
+    public JLabel getG2(){
+        return G2;
+    }
+    public JLabel getG3(){
+        return G3;
+    }
+    public JLabel getG4(){
+        return G4;
     }
     public JLabel getG5(){
         return G5;
     }
-    public void setBorderG6(){
-        G6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getG6(){
         return G6;
     }
-    public void setBorderH5(){
-        H5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    public JLabel getG7(){
+        return G7;
+    }
+    public JLabel getG8(){
+        return G8;
+    }
+    public void setBorderG1(){
+        G1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG2(){
+        G2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG3(){
+        G3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG4(){
+        G4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG5(){
+        G5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG6(){
+        G6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG7(){
+        G7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderG8(){
+        G8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }    
+    //H
+    public JLabel getH1(){
+        return H1;
+    }
+    public JLabel getH2(){
+        return H2;
+    }
+    public JLabel getH3(){
+        return H3;
+    }
+    public JLabel getH4(){
+        return H4;
     }
     public JLabel getH5(){
         return H5;
     }
-    public void setBorderH6(){
-        H6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-    }
     public JLabel getH6(){
         return H6;
     }
+    public JLabel getH7(){
+        return H7;
+    }
+    public JLabel getH8(){
+        return H8;
+    }
+    public void setBorderH1(){
+        H1.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH2(){
+        H2.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH3(){
+        H3.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH4(){
+        H4.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH5(){
+        H5.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH6(){
+        H6.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH7(){
+        H7.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    }
+    public void setBorderH8(){
+        H8.setBorder(BorderFactory.createLineBorder(Color.red, 2));
+    } 
+
+    
+    
     /**
      * @param args the command line arguments
      */
