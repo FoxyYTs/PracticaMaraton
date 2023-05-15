@@ -323,7 +323,7 @@ public class Tablero extends javax.swing.JFrame {
         PeonN_A7.setCursor(cursor);
     }//GEN-LAST:event_PeonN_A7MouseEntered
     private Point[][] Tablero=new Point[8][8];
-    public void LlenarMatriz(){
+    public Point[][] Matriz(){
         //FILA 8
         Tablero[0][0]=A8.getLocation();
         Tablero[0][1]=B8.getLocation();
@@ -396,6 +396,7 @@ public class Tablero extends javax.swing.JFrame {
         Tablero[7][5]=F1.getLocation();
         Tablero[7][6]=G1.getLocation();
         Tablero[7][7]=H1.getLocation();
+      return Tablero;
     }
     public JLabel getA1(){
         return A1;
